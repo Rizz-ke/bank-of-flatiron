@@ -12,7 +12,7 @@ This is a react project that lists recent bank transactions and also when one ad
 git clone to download the documents in GitHub
 
 # Technologies used
-React
+React + vite
 
 # Website Online Link
 
