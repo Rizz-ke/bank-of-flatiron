@@ -1,4 +1,6 @@
+// TransactionTable component
 function TransactionTable({ transactions }) {
+  // Return table with headers and rows for each transaction
   return (
     <table>
       <thead>
@@ -22,5 +24,5 @@ function TransactionTable({ transactions }) {
     </table>
   );
 }
-
+// Export TransactionTable
 export default TransactionTable;

@@ -1,4 +1,6 @@
+// Table component
 function Table({ transactions }) {
+  // Map through transactions and return table rows
   const info = transactions.map((exchange, index) => {
     return (
       <tr key={index+1}>
@@ -10,7 +12,8 @@ function Table({ transactions }) {
     );
   });
 
+  // Render table rows
   return (<>{info}</>)
 }
-
+// Export Table
 export default Table;
